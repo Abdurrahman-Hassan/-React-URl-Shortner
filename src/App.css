@@ -1,0 +1,90 @@
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.main {
+  background-repeat: no-repeat;
+}
+
+h1 {
+  color: #f7797d;
+}
+.span {
+  color: #fbd786;
+}
+/* From uiverse.io by @Codewithvinay */
+.input {
+  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #f7797d, #fbd786, #c6ffdd);
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #f7797d, #fbd786, #c6ffdd);
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background-repeat: no-repeat;
+  border-radius: 89% 29% 90% 23% / 0% 100% 0% 100%;
+  border-color: transparent;
+  width: 350px;
+  height: 50px;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-weight: 500;
+  font-family: inherit;
+  box-shadow: 23px 23px 46px #bebebe, -23px -23px 46px #ffffff;
+}
+
+.input::placeholder {
+  color: white;
+}
+
+/* From uiverse.io by @absoluteSTrange */
+button {
+  padding: 10px 20px;
+  border-radius: 10px;
+  border: 0;
+  background-color: #f7797d;
+  letter-spacing: 1.5px;
+  font-size: 15px;
+  transition: all 0.3s ease;
+  box-shadow: #c05c5f 0px 10px 0px 0px;
+  color: hsl(0, 0%, 100%);
+}
+
+button:hover {
+  box-shadow: #c05c5f 0px 7px 0px 0px;
+}
+
+button:active {
+  background-color: rgb(255, 56, 86);
+  /*50, 168, 80*/
+  box-shadow: rgb(201, 46, 70) 0px 0px 0px 0px;
+  transform: translateY(5px);
+  transition: 200ms;
+}
+
+.copy {
+  padding: 10px 20px;
+  border-radius: 10px;
+  border: 0;
+  background-color: #fbd786;
+  letter-spacing: 1.5px;
+  font-size: 15px;
+  transition: all 0.3s ease;
+  box-shadow: #c2a35c 0px 10px 0px 0px;
+  color: hsl(0, 0%, 100%);
+}
+
+.copy:hover {
+  box-shadow: #c2a35c 0px 7px 0px 0px;
+}
+
+.copy:active {
+  background-color: #fbd786;
+  /*50, 168, 80*/
+  box-shadow: #c2a35c 0px 0px 0px 0px;
+  transform: translateY(5px);
+  transition: 200ms;
+}
